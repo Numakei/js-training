@@ -5,10 +5,9 @@ import instruction from "./instruction.md";
 
 const convertData = (input) => {
   return input.map(([name, count]) => ({
-    name,
-    count,
+    name, //名前を格納
+    count, //定員を格納
   }));
-   // ここを作りましょう！
 };
 
 const Lesson = () => {
